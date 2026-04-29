@@ -1,5 +1,7 @@
 
-#Global Superstore Sales Forecasting & Analytics#
+#
+Global Superstore Sales Forecasting & Analytics
+#
 **Project Overview**
 This project focuses on analyzing historical sales data from the Global Superstore dataset and building a machine learning model to forecast future sales and predict profit margins. By combining Power BI for visualization and XGBoost for predictive modeling, the project provides actionable insights into business performance.
 
@@ -12,7 +14,7 @@ Libraries: Pandas, Numpy, XGBoost, Scikit-learn, Matplotlib, Seaborn
 
 Version Control: Git & GitHub
 
-Machine Learning Approach
+**Machine Learning Approach**
 We developed two main predictive models using the XGBoost Regressor:
 
 Sales Forecasting:
