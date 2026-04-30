@@ -20,7 +20,9 @@ Version Control: Git & GitHub
 - Sales Forecasting
   
 Goal: Forecast monthly sales using historical data
+
 Models: Prophet and XGBoost
+
 Feature Engineering:
 Time-based features (month, quarter)
 Lag features (1, 3, 12 months)
@@ -29,6 +31,7 @@ Data Transformation: Log transformation to handle skewness
 - Profit Analysis
   
 Goal: Analyze the impact of discount on revenue and profitability
+
 Approach: Simulated profit under different discount levels
 
 **Model Evaluation:**
