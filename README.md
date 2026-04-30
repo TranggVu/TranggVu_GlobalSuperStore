@@ -24,9 +24,8 @@ Goal: Forecast monthly sales using historical data
 Models: Prophet and XGBoost
 
 Feature Engineering:
-Time-based features (month, quarter)
-Lag features (1, 3, 12 months)
-Rolling statistics
+Time-based features (month, quarter), Lag features (1, 3, 12 months), Rolling statistics
+
 Data Transformation: Log transformation to handle skewness
 - Profit Analysis
   
