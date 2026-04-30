@@ -1,0 +1,21 @@
+{
+  "name": "Clean Professional",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 16
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12
+    },
+    "callout": {
+      "fontFace": "Segoe UI Bold",
+      "fontSize": 26
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 11
+    }
+  }
+}

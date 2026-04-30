@@ -1,0 +1,70 @@
+Region,Category,avg_ship_ratio
+Canada,Furniture,0.12110378137131447
+Canada,Office Supplies,0.12692686742958573
+Canada,Technology,0.10265544676936973
+Caribbean,Furniture,0.11129535707954795
+Caribbean,Office Supplies,0.1262561936095649
+Caribbean,Technology,0.10574376000351296
+Central Africa,Furniture,0.10981902057582457
+Central Africa,Office Supplies,0.12737582915127146
+Central Africa,Technology,0.11733182507427604
+Central America,Furniture,0.10853465095781467
+Central America,Office Supplies,0.1218721539585068
+Central America,Technology,0.10759179606999963
+Central Asia,Furniture,0.12956429502151764
+Central Asia,Office Supplies,0.17975805853055993
+Central Asia,Technology,0.11790503204709131
+Central US,Furniture,0.12246129499171986
+Central US,Office Supplies,0.17402711540903218
+Central US,Technology,0.11854978330663193
+Eastern Africa,Furniture,0.1066676852677253
+Eastern Africa,Office Supplies,0.14530769571164093
+Eastern Africa,Technology,0.11441939497959226
+Eastern Asia,Furniture,0.11704307411698642
+Eastern Asia,Office Supplies,0.11366986829080795
+Eastern Asia,Technology,0.11536526359816679
+Eastern Europe,Furniture,0.10974649510029233
+Eastern Europe,Office Supplies,0.1248143797995023
+Eastern Europe,Technology,0.10872277057379477
+Eastern US,Furniture,0.11585531867184397
+Eastern US,Office Supplies,0.15857856569259243
+Eastern US,Technology,0.11417028216453164
+North Africa,Furniture,0.10462344105421947
+North Africa,Office Supplies,0.12056411028381543
+North Africa,Technology,0.10917144982410394
+Northern Europe,Furniture,0.11075853462706411
+Northern Europe,Office Supplies,0.11778547704516901
+Northern Europe,Technology,0.10653783463538397
+Oceania,Furniture,0.10821380676548657
+Oceania,Office Supplies,0.11801400086546966
+Oceania,Technology,0.1126157941440272
+South America,Furniture,0.11056986619865115
+South America,Office Supplies,0.12977046982848373
+South America,Technology,0.10900466606233647
+Southeastern Asia,Furniture,0.10670790433843579
+Southeastern Asia,Office Supplies,0.11506616078146077
+Southeastern Asia,Technology,0.10274289621743878
+Southern Africa,Furniture,0.11936395912169027
+Southern Africa,Office Supplies,0.1316913718201893
+Southern Africa,Technology,0.12210643919365645
+Southern Asia,Furniture,0.104786550006127
+Southern Asia,Office Supplies,0.11610151888307328
+Southern Asia,Technology,0.11010190829324285
+Southern Europe,Furniture,0.10667935963580043
+Southern Europe,Office Supplies,0.11454999464024461
+Southern Europe,Technology,0.10720918857473663
+Southern US,Furniture,0.11215372512205554
+Southern US,Office Supplies,0.1568073551616899
+Southern US,Technology,0.11654079736262075
+Western Africa,Furniture,0.1140360296232106
+Western Africa,Office Supplies,0.17805693202620676
+Western Africa,Technology,0.10939585758178512
+Western Asia,Furniture,0.11086598162840283
+Western Asia,Office Supplies,0.1544381096228935
+Western Asia,Technology,0.11201327452634378
+Western Europe,Furniture,0.10654055839080483
+Western Europe,Office Supplies,0.114489999310407
+Western Europe,Technology,0.10901604198224005
+Western US,Furniture,0.11811721474227667
+Western US,Office Supplies,0.14349181275593748
+Western US,Technology,0.11354497305899272
