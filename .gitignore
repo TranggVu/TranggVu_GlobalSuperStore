@@ -1,0 +1,19 @@
+# Cấu hình IDE
+.idea/
+.vscode/
+
+# Thư mục môi trường ảo
+.venv/
+venv/
+env/
+
+# File tạm của Python
+__pycache__/
+*.pyc
+
+# File export từ Jupyter Notebook (nếu không cần thiết)
+exportToHTML/
+
+# Hệ thống (Mac/Windows)
+.DS_Store
+Thumbs.db
