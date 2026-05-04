@@ -1,70 +1,70 @@
 Region,Category,Avg_Monthly_Sales
-Canada,Furniture,252.26857142857145
-Canada,Office Supplies,108.42628158844767
-Canada,Technology,404.59707692307694
-Caribbean,Furniture,314.82018617021276
-Caribbean,Office Supplies,92.06108941418294
-Caribbean,Technology,341.15266862170085
-Central Africa,Furniture,451.7881481481481
-Central Africa,Office Supplies,104.72327944572748
-Central Africa,Technology,478.216976744186
-Central America,Furniture,336.88068597560977
-Central America,Office Supplies,100.07611842105264
-Central America,Technology,415.1711870503597
-Central Asia,Furniture,131.98166666666665
-Central Asia,Office Supplies,53.37691275167785
-Central Asia,Technology,186.15363636363634
-Central US,Furniture,345.3431856540085
-Central US,Office Supplies,116.95655703289015
-Central US,Technology,405.75307142857145
-Eastern Africa,Furniture,320.7519801980198
-Eastern Africa,Office Supplies,102.55503999999999
-Eastern Africa,Technology,347.8944094488189
-Eastern Asia,Furniture,640.7325904761905
-Eastern Asia,Office Supplies,149.3638501102131
-Eastern Asia,Technology,646.292643442623
-Eastern Europe,Furniture,410.5518828451883
-Eastern Europe,Office Supplies,103.54906093906094
-Eastern Europe,Technology,374.5983737024222
-Eastern US,Furniture,347.58267111853087
-Eastern US,Office Supplies,119.95641773628938
-Eastern US,Technology,495.27857943925227
-North Africa,Furniture,335.04016483516483
-North Africa,Office Supplies,98.20942594718714
-North Africa,Technology,385.3284
-Northern Europe,Furniture,524.0081250000001
-Northern Europe,Office Supplies,148.2360356652949
-Northern Europe,Technology,593.8244366197183
-Oceania,Furniture,553.1917789757413
-Oceania,Office Supplies,143.65842937276898
-Oceania,Technology,520.4122576530613
-South America,Furniture,362.55157060518735
-South America,Office Supplies,91.28008249852681
-South America,Technology,352.9489949748743
-Southeastern Asia,Furniture,456.1673362445415
-Southeastern Asia,Office Supplies,136.0887704455725
-Southeastern Asia,Technology,492.90224215246633
-Southern Africa,Furniture,358.23428571428576
-Southern Africa,Office Supplies,97.28331081081082
-Southern Africa,Technology,458.20982142857144
-Southern Asia,Furniture,555.4122438162544
-Southern Asia,Office Supplies,132.80519549370445
-Southern Asia,Technology,606.5632413793103
-Southern Europe,Furniture,480.6813738019169
-Southern Europe,Office Supplies,172.30765458422175
-Southern Europe,Technology,548.8651399491094
-Southern US,Furniture,355.29821212121215
-Southern US,Office Supplies,126.07981945837513
-Southern US,Technology,507.7539590443686
-Western Africa,Furniture,201.04634517766496
-Western Africa,Office Supplies,59.044158730158735
-Western Africa,Technology,246.78009433962265
-Western Asia,Furniture,221.05852242744066
-Western Asia,Office Supplies,68.47587939698492
-Western Asia,Technology,265.0579317697228
-Western Europe,Furniture,523.5901436464088
-Western Europe,Office Supplies,156.13823987538942
-Western Europe,Technology,583.1593872113676
-Western US,Furniture,359.59343304843304
-Western US,Office Supplies,116.21003154574133
-Western US,Technology,420.68757929883134
+Canada,Furniture,365.3544827586207
+Canada,Office Supplies,652.9147826086956
+Canada,Technology,939.2432142857143
+Caribbean,Furniture,2518.561489361702
+Caribbean,Office Supplies,1866.155
+Caribbean,Technology,2423.6054166666668
+Central Africa,Furniture,1045.566857142857
+Central Africa,Office Supplies,985.7647826086957
+Central Africa,Technology,1468.8092857142856
+Central America,Furniture,9208.072083333334
+Central America,Office Supplies,6655.061874999999
+Central America,Technology,9618.1325
+Central Asia,Furniture,186.3270588235294
+Central Asia,Office Supplies,189.36095238095237
+Central Asia,Technology,327.6304
+Central US,Furniture,3410.2639583333334
+Central US,Office Supplies,3481.894166666667
+Central US,Technology,3550.339375
+Eastern Africa,Furniture,852.525
+Eastern Africa,Office Supplies,1068.2816666666668
+Eastern Africa,Technology,1027.5020930232558
+Eastern Asia,Furniture,7008.012708333333
+Eastern Asia,Office Supplies,4235.087500000001
+Eastern Asia,Technology,6570.641875
+Eastern Europe,Furniture,2281.9046511627907
+Eastern Europe,Office Supplies,2159.429375
+Eastern Europe,Technology,2303.381489361702
+Eastern US,Furniture,4429.830212765957
+Eastern US,Office Supplies,4283.443749999999
+Eastern US,Technology,5520.2925
+North Africa,Furniture,1355.0513333333333
+North Africa,Office Supplies,1782.091875
+North Africa,Technology,1970.4293181818182
+Northern Europe,Furniture,3493.3875000000003
+Northern Europe,Office Supplies,4502.669583333333
+Northern Europe,Technology,5382.323617021277
+Oceania,Furniture,8551.422916666666
+Oceania,Office Supplies,5869.045416666667
+Oceania,Technology,8500.066875
+South America,Furniture,5241.8914583333335
+South America,Office Supplies,3227.13125
+South America,Technology,4389.803124999999
+Southeastern Asia,Furniture,6528.895
+Southeastern Asia,Office Supplies,5026.778958333333
+Southeastern Asia,Technology,6869.825
+Southern Africa,Furniture,783.6375
+Southern Africa,Office Supplies,612.6778723404256
+Southern Africa,Technology,1315.8846153846155
+Southern Asia,Furniture,6549.236041666667
+Southern Asia,Office Supplies,4175.0633333333335
+Southern Asia,Technology,7329.305833333333
+Southern Europe,Furniture,3201.133404255319
+Southern Europe,Office Supplies,5050.768125
+Southern Europe,Technology,4493.833333333333
+Southern US,Furniture,2494.6470212765958
+Southern US,Office Supplies,2618.7829166666666
+Southern US,Technology,3165.3597872340424
+Western Africa,Furniture,880.1362222222222
+Western Africa,Office Supplies,1162.431875
+Western Africa,Technology,1669.7036170212768
+Western Asia,Furniture,1745.44125
+Western Asia,Office Supplies,2271.116666666667
+Western Asia,Technology,2702.4384782608695
+Western Europe,Furniture,9871.855833333333
+Western Europe,Office Supplies,12530.09375
+Western Europe,Technology,13679.947291666665
+Western US,Furniture,5259.053958333333
+Western US,Office Supplies,4604.822499999999
+Western US,Technology,5361.5289361702135

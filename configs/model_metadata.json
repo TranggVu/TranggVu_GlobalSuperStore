@@ -1,0 +1,15 @@
+{
+  "sales_model": {
+    "target": "log1p(monthly_sales)",
+    "prediction_inverse": "expm1",
+    "train_until": "2015-12-01",
+    "n_estimators": 170,
+    "features_file": "configs/features.json"
+  },
+  "margin_model": {
+    "target": "profit / sales",
+    "train_until": "2015-12-31",
+    "n_estimators": 118,
+    "features_file": "configs/features_margin.json"
+  }
+}

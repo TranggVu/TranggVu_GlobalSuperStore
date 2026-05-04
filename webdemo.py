@@ -5,6 +5,7 @@ import xgboost as xgb
 import json
 import plotly.express as px
 import plotly.graph_objects as go
+from pathlib import Path
 
 # =========================================================
 # 1. CONFIG
@@ -210,32 +211,50 @@ hr {
 # =========================================================
 @st.cache_resource
 def load_assets():
+    # Lấy đường dẫn thư mục chứa file webdemo.py
+    # Giúp app load file đúng dù bạn chạy Streamlit từ thư mục nào
+    BASE_DIR = Path(__file__).resolve().parent
+
+    MODEL_DIR = BASE_DIR / "models"
+    CONFIG_DIR = BASE_DIR / "configs"
+    DATA_DIR = BASE_DIR / "data"
+
+    # Load mô hình Sales
     m_sales = xgb.XGBRegressor()
-    m_sales.load_model("model_monthly.json")
+    m_sales.load_model(str(MODEL_DIR / "model_monthly.json"))
 
+    # Load mô hình Margin
     m_margin = xgb.XGBRegressor()
-    m_margin.load_model("model_margin.json")
+    m_margin.load_model(str(MODEL_DIR / "model_margin.json"))
 
-    with open("features.json", "r", encoding="utf-8") as f:
+    # Load danh sách features và cấu hình giao diện
+    with open(CONFIG_DIR / "features.json", "r", encoding="utf-8") as f:
         f_sales = json.load(f)
-    with open("features_margin.json", "r", encoding="utf-8") as f:
+
+    with open(CONFIG_DIR / "features_margin.json", "r", encoding="utf-8") as f:
         f_margin = json.load(f)
-    with open("regions.json", "r", encoding="utf-8") as f:
+
+    with open(CONFIG_DIR / "regions.json", "r", encoding="utf-8") as f:
         regions = json.load(f)
-    with open("ship_modes.json", "r", encoding="utf-8") as f:
+
+    with open(CONFIG_DIR / "ship_modes.json", "r", encoding="utf-8") as f:
         ship_modes = json.load(f)
-    with open("categories.json", "r", encoding="utf-8") as f:
+
+    with open(CONFIG_DIR / "categories.json", "r", encoding="utf-8") as f:
         categories = json.load(f)
 
-    history = pd.read_csv("monthly_history.csv")
+    # Load dữ liệu lịch sử và các bảng tra cứu
+    history = pd.read_csv(DATA_DIR / "monthly_history.csv")
     history["ds"] = pd.to_datetime(history["ds"])
+
     if "y_log" in history.columns:
         history["Sales"] = np.expm1(history["y_log"])
 
-    ship_ratio_df = pd.read_csv("ship_ratio_profile.csv")
-    ship_money_df = pd.read_csv("ship_money_profile.csv")
-    cat_sales_avg_df = pd.read_csv("cat_sales_avg.csv")
+    ship_ratio_df = pd.read_csv(DATA_DIR / "ship_ratio_profile.csv")
+    ship_money_df = pd.read_csv(DATA_DIR / "ship_money_profile.csv")
+    cat_sales_avg_df = pd.read_csv(DATA_DIR / "cat_sales_avg.csv")
 
+    # Giải mã region từ các cột one-hot region_...
     region_cols = [c for c in history.columns if c.startswith("region_")]
 
     def decode_region(row):
@@ -251,6 +270,7 @@ def load_assets():
         regions, ship_modes, categories,
         history, ship_ratio_df, ship_money_df, cat_sales_avg_df
     )
+
 
 (
     m_sales, m_margin, f_sales, f_margin,
