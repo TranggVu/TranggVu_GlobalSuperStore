@@ -447,12 +447,12 @@ with tab1:
 with tab2:
     forecast_rev = sales_final if "sales_final" in locals() else 1000.0
 
-    st.markdown("### Mô phỏng chiến thuật lợi nhuận")
+    st.markdown("### Mô phỏng hỗ trợ tối ưu hóa biên lợi nhuận")
     st.caption("Điều chỉnh discount, shipping và cấu hình vận hành để đánh giá tác động lên margin và lợi nhuận ròng.")
 
     st.markdown(f"""
     <div class="note-card">
-        Doanh thu nền dùng cho mô phỏng tại <b>{region_user}</b> trong tháng <b>{sel_date_str}</b> là <b>${forecast_rev:,.2f}</b>.
+        Doanh thu dự báo dùng cho mô phỏng tại <b>{region_user}</b> trong tháng <b>{sel_date_str}</b> là <b>${forecast_rev:,.2f}</b>.
     </div>
     """, unsafe_allow_html=True)
 
